@@ -1,0 +1,115 @@
+{
+  "caption": "NAND",
+  "gates": [
+    {
+      "x": "-30",
+      "y": "90",
+      "direction": "0",
+      "inputCount": "2",
+      "outputCount": "1",
+      "logicFunction": "\"and\"",
+      "outputsInv": "[false]",
+      "inputsInv": "[false,false]"
+    }
+  ],
+  "outputs": [
+    {
+      "x": "270",
+      "y": "120",
+      "colr": "0"
+    }
+  ],
+  "inputs": [
+    {
+      "x": "-195",
+      "y": "45",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 0
+    },
+    {
+      "x": "-195",
+      "y": "195",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 1
+    }
+  ],
+  "wires": [
+    {
+      "x1": "-180",
+      "y1": "60",
+      "y2": "120"
+    },
+    {
+      "x1": "-180",
+      "y1": "120",
+      "x2": "-30"
+    },
+    {
+      "x1": "-180",
+      "y1": "150",
+      "y2": "210"
+    },
+    {
+      "x1": "-180",
+      "y1": "150",
+      "x2": "-30"
+    },
+    {
+      "x1": "30",
+      "y1": "120",
+      "x2": "150"
+    },
+    {
+      "x1": "210",
+      "y1": "120",
+      "x2": "270"
+    }
+  ],
+  "busses": [],
+  "conpoints": [],
+  "diodes": [],
+  "customs": [
+    {
+      "x": "150",
+      "y": "90",
+      "direction": "0",
+      "filename": "\"not-gate.json\"",
+      "outputsInv": "[]",
+      "inputsInv": "[]"
+    }
+  ],
+  "labels": [
+    {
+      "x": "-150",
+      "y": "60",
+      "txt": "A"
+    },
+    {
+      "x": "-150",
+      "y": "210",
+      "txt": "B"
+    },
+    {
+      "x": "300",
+      "y": "120",
+      "txt": "Q"
+    },
+    {
+      "x": "450",
+      "y": "120",
+      "txt": "Q = -, (A v B)"
+    },
+    {
+      "x": "-360",
+      "y": "120",
+      "txt": "NAND"
+    }
+  ],
+  "segDisplays": [],
+  "busWrappers": [],
+  "busUnwrappers": [],
+  "busInputs": [],
+  "decoders": []
+}
