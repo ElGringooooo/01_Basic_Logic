@@ -1,0 +1,91 @@
+{
+  "caption": "AND",
+  "gates": [
+    {
+      "x": "30",
+      "y": "-210",
+      "direction": "0",
+      "inputCount": "2",
+      "outputCount": "1",
+      "logicFunction": "\"and\"",
+      "outputsInv": "[false]",
+      "inputsInv": "[false,false]"
+    }
+  ],
+  "outputs": [
+    {
+      "x": "240",
+      "y": "-180",
+      "colr": "0"
+    }
+  ],
+  "inputs": [
+    {
+      "x": "-135",
+      "y": "-255",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 0
+    },
+    {
+      "x": "-135",
+      "y": "-105",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 1
+    }
+  ],
+  "wires": [
+    {
+      "x1": "-120",
+      "y1": "-180",
+      "x2": "30"
+    },
+    {
+      "x1": "-120",
+      "y1": "-240",
+      "y2": "-180"
+    },
+    {
+      "x1": "90",
+      "y1": "-180",
+      "x2": "240"
+    },
+    {
+      "x1": "-120",
+      "y1": "-150",
+      "x2": "30"
+    },
+    {
+      "x1": "-120",
+      "y1": "-150",
+      "y2": "-90"
+    }
+  ],
+  "busses": [],
+  "conpoints": [],
+  "diodes": [],
+  "customs": [],
+  "labels": [
+    {
+      "x": "270",
+      "y": "-180",
+      "txt": "Q"
+    },
+    {
+      "x": "-90",
+      "y": "-240",
+      "txt": "A"
+    },
+    {
+      "x": "-90",
+      "y": "-90",
+      "txt": "B"
+    }
+  ],
+  "segDisplays": [],
+  "busWrappers": [],
+  "busUnwrappers": [],
+  "busInputs": [],
+  "decoders": []
+}
